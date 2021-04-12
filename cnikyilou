@@ -1,0 +1,69 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+🇭🇰 中港专线 IPLC E02 1000Mbps = ShadowsocksR,hk02.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 中港专线 IPLC E13 1000Mbps = ShadowsocksR,hk13.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 中国-香港 IEPL Equinix HK2 E 10 = ShadowsocksR,hk30.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02 = ShadowsocksR,hkaia02.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 中港专线 IPLC E15 1000Mbps = ShadowsocksR,hk15.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08 = ShadowsocksR,jp26.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix = ShadowsocksR,jp44.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix = ShadowsocksR,jp35.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix = ShadowsocksR,jp17.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2 = ShadowsocksR,jp17.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix = ShadowsocksR,jp08.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 中国-香港 IEPL Equinix HK2 E 19 = ShadowsocksR,hk39.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 中国-香港 IEPL Equinix HK2 E 11 = ShadowsocksR,hk31.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01 = ShadowsocksR,hkt01.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+🇭🇰 中国-香港 IEPL Equinix HK2 E 04 = ShadowsocksR,hk24.as9929.com,10096,rc4-md5,"xmotaetpsh8",origin,{},http_simple,{download.windowsupdate.com}
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+♻️ 自动选择 = url-test,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04,url=http://www.gstatic.com/generate_204,interval=300
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
+🛑 全球拦截 = select,REJECT,DIRECT
+🍃 应用净化 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇭🇰 中港专线 IPLC E02 1000Mbps,🇭🇰 中港专线 IPLC E13 1000Mbps,🇭🇰 中国-香港 IEPL Equinix HK2 E 10,🇭🇰 集客VPLS/5000Mbps/5000Mbps/上海-(国际)香港 E02,🇭🇰 中港专线 IPLC E15 1000Mbps,🇯🇵 日本 まつやまし auひかり ホーム1ギガ E 08,🇯🇵 日本 ソフトバンク E14 500Mbps 1x Netflix,🇯🇵 日本 ソフトバンク E05 500Mbps 1x Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix,🇯🇵 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix 2,🇯🇵 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix,🇭🇰 中国-香港 IEPL Equinix HK2 E 19,🇭🇰 中国-香港 IEPL Equinix HK2 E 11,🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 E01,🇭🇰 中国-香港 IEPL Equinix HK2 E 04
+
+[Rule]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[Remote Rule]
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 全球拦截
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报信息
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,🚀 节点选择
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
