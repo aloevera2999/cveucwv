@@ -87,8 +87,7 @@ static=网易云音乐, direct, img-url=https://raw.githubusercontent.com/Koolso
 
 [server_remote]
 # > sig
-https://sub.xeton.dev/sub?target=quanx&url=trojan%3A%2F%2FNodeByTelegramWeoworks%40weo-sg-1.weoworks.link%3A2333%3Fpeer%3Dweo-sg-1.weoworks.link%23%25F0%259F%2587%25B8%25F0%259F%2587%25AC%2520SG-1%25C2%25B7TG%40Weoworks%7Ctrojan%3A%2F%2FNodeByTelegramWeoworks%40weo-sg-1.weoworks.link%3A23333%3Fpeer%3Dweo-sg-1.weoworks.link%23%25F0%259F%2587%25B8%25F0%259F%2587%25AC%2520SG-2%25C2%25B7TG%40Weoworks%7Cvless%3A%2F%2FYXV0bzoyM2ZlMDQ0YS1jNzkzLTQ3NzctYmYwYy1iZjZjYjhkYmQ3YTZAMTI5LjE1NC4yMDQuMjU6MjA1Mg%3Fremarks%3Dleehaha.jokerlee2020.workers.dev%26obfsParam%3Dleehaha.jokerlee2020.workers.dev%26path%3D%2F%3Fed%3D2048%26obfs%3Dwebsocket%7C&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
-# > 魔法仅供临时使用1
+https://sub.xeton.dev/sub?target=quanx&url=trojan%3A%2F%2FNodeByTelegramWeoworks%40weo-sg-1.weoworks.link%3A2333%3Fpeer%3Dweo-sg-1.weoworks.link%23%25F0%259F%2587%25B8%25F0%259F%2587%25AC%2520SG-1%25C2%25B7TG%40Weoworks%7Ctrojan%3A%2F%2FNodeByTelegramWeoworks%40weo-sg-1.weoworks.link%3A23333%3Fpeer%3Dweo-sg-1.weoworks.link%23%25F0%259F%2587%25B8%25F0%259F%2587%25AC%2520SG-2%25C2%25B7TG%40Weoworks%7Cvless%3A%2F%2FYXV0bzoyM2ZlMDQ0YS1jNzkzLTQ3NzctYmYwYy1iZjZjYjhkYmQ3YTZAMTI5LjE1NC4yMDQuMjU6MjA1Mg%3Fremarks%3Dleehaha.jokerlee2020.workers.dev%26obfsParam%3Dleehaha.jokerlee2020.workers.dev%26path%3D%2F%3Fed%3D2048%26obfs%3Dwebsocket%7C&insert=false
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg#delreg=.*&rename=@tg-ddgksf2021-num-+@$index0, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
 # > 魔法仅供临时使用2
 https://sub.sharecentre.online/sub#delreg=.*&rename=@tg-ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
