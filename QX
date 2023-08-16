@@ -84,10 +84,14 @@ static=网易云音乐, direct, img-url=https://raw.githubusercontent.com/Koolso
 
 [server_local]
 # 本地节点
+trojan = weo-sg-1.weoworks.link:2333, password=NodeByTelegramWeoworks, over-tls=true, tls-host=weo-sg-1.weoworks.link, tag=🇸🇬 SG-1·TG@Weoworks
+trojan = weo-sg-1.weoworks.link:23333, password=NodeByTelegramWeoworks, over-tls=true, tls-host=weo-sg-1.weoworks.link, tag=🇸🇬 SG-2·TG@Weoworks
 
 [server_remote]
+
+https://suo.yt/zPFxQ0F#delreg=.*&rename=@tg-ddgksf2021-+@num-$index7, tag=节点0, update-interval=3600, opt-parser=true, enabled=true
 # > sig
-https://suo.yt/MyNu3PH#delreg=.*&rename=@tg-ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
+https://suo.yt/MyNu3PH#delreg=.*&rename=@tg-ddgksf2021-+@num-$index7, tag=🐟新加坡, update-interval=3600, opt-parser=true, enabled=true
 # > 魔法仅供临时使用1
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg#delreg=.*&rename=@tg-ddgksf2021-num-+@$index0, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
 # > 魔法仅供临时使用2
